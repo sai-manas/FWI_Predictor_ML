@@ -22,7 +22,7 @@ https://github.com/sai-manas/FWI_Predictor_ML/assets/106865226/13fbea64-b82c-47c
 ## Technologies Used
 
 - **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
+- **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn , Pickle, Warnings
 - **Web Framework:** Flask
 - **Deployment:** AWS Elastic Beanstalk, AWS CodePipeline
 
