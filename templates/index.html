@@ -1,0 +1,67 @@
+<html>
+<head>
+    <style>
+     *{
+        background-color: rgb(127, 144, 147);
+     }
+     .login{
+        margin: 20px;
+        padding: 50px;
+     }
+     button{
+        padding: 15px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: larger;
+        border-radius: 5%;
+        border-style: none;
+     }
+     form{
+        text-align: center;
+     }
+     input{
+        font-size: 20px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        width: 500px;
+     }
+     h1{
+        font-size: 50px;
+        text-align: center;
+        border-bottom: 3px solid black;
+     }
+     h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: rgb(3, 2, 2);
+        text-align: center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="login">
+       <h1>Fire Weather Index(FWI) Prediction</h1>
+   
+        <!-- Main Input For Receiving Query to our ML -->
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+         <input type="text" name="Temperature" placeholder="Temperature" required="required" /><br>
+           <input type="text" name="RH" placeholder="RH" required="required" /><br>
+           <input type="text" name="Ws" placeholder="Ws" required="required" /><br>
+           <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
+           <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
+           <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
+           <input type="text" name="ISI" placeholder="ISI" required="required" /><br>
+           <input type="text" name="Classes" placeholder="Classes" required="required" /><br>
+           <input type="text" name="Region" placeholder="Region" required="required" /><br>
+           <br>
+   
+   
+   
+           <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+       </form>
+    <h2>
+       The Fire Weather Index(FWI) prediction value is : {{results}}
+    </h2>
+   <body>
+</html>
