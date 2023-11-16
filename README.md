@@ -5,7 +5,7 @@ FWI predictor application will predict the Fire Weather Index
 
 
 ## Screen Recording of FWI predictor application deployed on aws
-https://github.com/sai-manas/FWI_predictor_WebApp_ML/assets/106865226/92900578-282b-458f-8e9d-954a5a0ffcb0
+https://github.com/sai-manas/FWI_Predictor_ML/assets/106865226/13fbea64-b82c-47c8-a82f-062f80e9422d
 
 ## How to use
 > This web application can be hosted using Flask or deployed on AWS
