@@ -17,7 +17,6 @@ https://github.com/sai-manas/FWI_Predictor_ML/assets/106865226/13fbea64-b82c-47c
 
 - **Instances:** 244 (122 for each region)
 - **Attributes:** 11 weather-related attributes and 1 output attribute (FWI)
-- **Classes:** Classified into "fire" (138 instances) and "not fire" (106 instances)
 
 ## Technologies Used
 
