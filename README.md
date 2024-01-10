@@ -53,7 +53,7 @@ The application is deployed on AWS Elastic Beanstalk, with continuous integratio
 ### I. Notebook Usage
    - Explore notebook to understand the implementation and evaluation of different regression models, along with data visualization
 
-> This web application can be hosted using Flask or deployed on AWS
+> Hosted this web application using Flask and deployed on AWS
 ### II. Flask
 1. **Clone the GitHub Repository:**
    - Open your terminal or command prompt.
